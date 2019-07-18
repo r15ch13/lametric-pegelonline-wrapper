@@ -1,12 +1,15 @@
 {
   "name": "lametric-pegelonline-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Richard Kuhnt <r15ch13+git@gmail.com>",
   "description": "A small wrapper for the pegelonline.wsv.de REST API (used by my LaMetric App)",
   "license": "MIT",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "*"
   },
   "dependencies": {
     "axios": "^0.18.1",
