@@ -12,12 +12,12 @@
     "node": "*"
   },
   "dependencies": {
-    "axios": "^0.18.1",
-    "lodash": "^4.17.13",
-    "moment": "^2.22.2",
-    "restify": "^7.2.1"
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "restify": "^8.4.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.19.4"
   }
 }
