@@ -95,6 +95,21 @@ function createLaMetricOutput (req, res, next) {
   return next()
 }
 
+server.get('/favicon.ico', (req, res, next) => {
+  res.send(404)
+  return next()
+})
+
+server.get('/sitemap.xml', (req, res, next) => {
+  res.send(404)
+  return next()
+})
+
+server.get('/robots.txt', (req, res, next) => {
+  res.send(404)
+  return next()
+})
+
 server.get('/',
   (req, res, next) => {
     if (!req.query.station) {
