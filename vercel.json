@@ -3,7 +3,7 @@
   "regions": ["fra1"],
   "rewrites": [
     {
-      "source": ".*",
+      "source": "/:path*",
       "destination": "/server.js"
     }
   ]
